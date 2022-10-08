@@ -53,6 +53,11 @@ html body #fullheight {
     cursor: pointer;
 }
 
+.item:active {
+    width: 86%;
+    height: 86%;
+}
+
 .additional__operators {
     background-color: #A5A5A5;
     color: black;
@@ -75,4 +80,14 @@ html body #fullheight {
     border-radius: 135px;
     grid-column: span 2;
     border: none;
+}
+
+.point {
+    background-color: #343434;
+    border: none;
+}
+
+.equal {
+    background-color: #343434;
+    border: none; 
 }
