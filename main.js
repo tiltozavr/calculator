@@ -103,14 +103,15 @@ NEGATIVE.addEventListener("click", () => {
     }
 })
 
-POINT.addEventListener("click", () => {
-    if (isFirstValue === false && isSecondValue === false) {
-        RESULT.innerHTML = firstValue + "."
-    } else if (isFirstValue === true && isSecondValue === false) {
-        secondValue = secondValue / 100
-        RESULT.innerHTML = secondValue
-    } else if (isFirstValue === true && isSecondValue === true) {
-        resultValue = resultValue / 100
-        RESULT.innerHTML = resultValue
-    }
-})
+// POINT.addEventListener("click", () => {
+//     if (isFirstValue === false && isSecondValue === false) {
+
+//         RESULT.innerHTML = firstValue + "."
+//     } else if (isFirstValue === true && isSecondValue === false) {
+//         secondValue = secondValue / 100
+//         RESULT.innerHTML = secondValue
+//     } else if (isFirstValue === true && isSecondValue === true) {
+//         resultValue = resultValue / 100
+//         RESULT.innerHTML = resultValue
+//     }
+// })
